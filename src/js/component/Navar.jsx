@@ -20,7 +20,7 @@ const Navar = (props) => {
                             <li class="nav-item ">
                                 <a className='nav-link text-light'>Services</a>
                             </li>
-                            <li class="nav-item me-5">
+                            <li class="nav-item ">
                                 <a className='nav-link text-light'>Content</a>
                             </li>
                         </ul>
