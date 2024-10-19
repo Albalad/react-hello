@@ -11,9 +11,12 @@ const Home = () => {
 	return (
 		<div>
 			<Navar/>
-			<div className="container">
+			<div className="mx-5">
 			<Titulo/>
-			<div className="row">
+			<div className="row mt-4">
+				<Carta col="col-3"/>
+				<Carta col="col-3"/>
+				<Carta col="col-3"/>
 				<Carta col="col-3"/>
 			</div>
 			<p>
