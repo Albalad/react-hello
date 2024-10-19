@@ -11,6 +11,9 @@ const Home = () => {
 		<div className="">
 			<Navar/>
 			<Titulo/>
+			<div className="row">
+				
+			</div>
 			<p>
 				<img src={rigoImage} />
 			</p>
