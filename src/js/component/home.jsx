@@ -11,13 +11,13 @@ const Home = () => {
 	return (
 		<div>
 			<Navar/>
-			<div className="mx-5">
+			<div className="mx-3 mx-md-5">
 			<Titulo/>
 			<div className="row mt-4">
-				<Carta col="col-3"/>
-				<Carta col="col-3"/>
-				<Carta col="col-3"/>
-				<Carta col="col-3"/>
+				<Carta col="mb-3 mb-md-0 col-md-3"/>
+				<Carta col="mb-3 mb-md-0 col-md-3"/>
+				<Carta col="mb-3 mb-md-0 col-md-3"/>
+				<Carta col="mb-3 mb-md-0 col-md-3"/>
 			</div>
 			<p>
 				<img src={rigoImage} />
