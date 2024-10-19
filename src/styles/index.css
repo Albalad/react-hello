@@ -10,3 +10,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.cartaGris{
+    background-color: lightgray;
+}
+
+.h1{
+    font-size: 300%;
+}
