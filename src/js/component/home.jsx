@@ -10,26 +10,44 @@ import Carta from "./Carta";
 const Home = () => {
 	return (
 		<div>
-			<Navar/>
-			<div className="mx-3 mx-md-5">
-			<Titulo/>
-			<div className="row mt-4">
-				<Carta col="mb-3 mb-md-0 col-md-3"/>
-				<Carta col="mb-3 mb-md-0 col-md-3"/>
-				<Carta col="mb-3 mb-md-0 col-md-3"/>
-				<Carta col="mb-3 mb-md-0 col-md-3"/>
-			</div>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
+			<Navar />
+			<div className="container">
+				<Titulo />
+				<div className="row mt-4">
+
+					<Carta fondo="tarjeta" 
+					titulo="Conoce a Rigo" 
+					texto="Este es Rigo, la mascota de 4GeeksAcademy y la más querida por todos los que cursan su bootcamp." 
+					aligment="text-center" 
+					col="mb-3 mb-md-0 col-md-3" 
+					footer="border-top justify-content-center d-flex pieCarta" 
+					imagen={rigoImage} width="100%" height="250px"
+					/>
+
+					<Carta fondo="tarjeta" 
+					titulo="Hola" 
+					texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum quis metus at ultrices." 
+					aligment="text-center" col="mb-3 mb-md-0 col-md-3" 
+					footer="border-top justify-content-center d-flex pieCarta" 
+					imagen={rigoImage} width="100%" height="250px"
+					/>
+
+					<Carta fondo="tarjeta" 
+					titulo="Hola" 
+					texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum quis metus at ultrices." 
+					aligment="text-center" col="mb-3 mb-md-0 col-md-3" 
+					footer="border-top justify-content-center d-flex pieCarta" 
+					imagen={rigoImage} width="100%" height="250px"
+					/>
+
+					<Carta fondo="tarjeta" 
+					titulo="Hola" 
+					texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum quis metus at ultrices." 
+					aligment="text-center" col="mb-3 mb-md-0 col-md-3" 
+					footer="border-top justify-content-center d-flex pieCarta" 
+					imagen={rigoImage} width="100%" height="250px"
+					/>
+				</div>
 			</div>
 		</div>
 	);
