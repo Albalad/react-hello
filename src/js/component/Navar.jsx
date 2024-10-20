@@ -12,16 +12,16 @@ const Navar = (props) => {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarScroll">
                         <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll " style={{ "--bs-scroll-height": "100px;" }}>
                             <li class="nav-item ">
-                                <a className='nav-link text-light'>Home</a>
+                                <a href='#' className='nav-link text-light'>Home</a>
                             </li>
                             <li class="nav-item ">
-                                <a className='nav-link text-light'>About</a>
+                                <a href='#' className='nav-link text-light'>About</a>
                             </li>
                             <li class="nav-item ">
-                                <a className='nav-link text-light'>Services</a>
+                                <a href='#' className='nav-link text-light'>Services</a>
                             </li>
                             <li class="nav-item ">
-                                <a className='nav-link text-light'>Content</a>
+                                <a href='#' className='nav-link text-light'>Content</a>
                             </li>
                         </ul>
                     </div>
