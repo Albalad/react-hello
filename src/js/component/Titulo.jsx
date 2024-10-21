@@ -8,7 +8,7 @@ const Titulo = () => {
 	return (
 		<div className="">
 			<Carta 
-			boton2={<Boton contenido="Call to action!" direccion="https://getbootstrap.com/" />}
+			boton2={<Boton contenido="Call to action!" direccion="#" />}
 			width="0px" height="0px" tamano="h1" 
 			fondo="cartaGris" margen="mt-3" 
 			titulo="A Warm Wellcome!" 
