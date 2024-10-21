@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = (props) => {
     return (
         
-            <footer className='bg-dark piePagina'>
+            <div className='bg-dark piePagina'>
                 Copyright@ Yor Website 2024
-            </footer>
+            </div>
         
     )
 };

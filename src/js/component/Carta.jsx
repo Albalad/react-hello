@@ -10,8 +10,9 @@ const Carta = (props) => {
                 <div className={`card-body ${props.aligment}`}>
                     <h5 className={`card-title ${props.tamano}`}>{props.titulo}</h5>
                     <p className="card-text">{props.texto}</p>
+                    {props.boton2}
                 </div>
-                <footer className={props.footer}>
+                <footer className={`card-body ${props.footer}`}>
                     {props.boton}
                 </footer>
             </div>
